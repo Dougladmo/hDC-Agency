@@ -1,0 +1,262 @@
+/* Gerais */
+body {
+  font-family: "Roboto", "sans-serif";
+}
+
+.row {
+  margin: 0;
+}
+
+.container {
+  padding: 70px 0;
+}
+
+p,
+li {
+  color: #444;
+  font-size: 0.8rem;
+}
+
+/* Navbar */
+
+header,
+.navbar {
+  background-color: #353d41;
+  padding: 0.3rem 3rem;
+}
+
+#nav-container {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+#logo {
+  width: 75px;
+}
+
+.navbar-brand {
+  padding: 0;
+  color: #fff;
+}
+
+.navbar-brand:hover {
+  color: #65daf9;
+  transition: 0.5s;
+}
+
+#navbar-links a {
+  color: #fff;
+  margin-left: 1rem;
+}
+
+#navbar-links a:hover {
+  color: #65daf9;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 1rem 0.8rem;
+}
+
+/* Slider */
+
+.container-fluid {
+  padding: 0;
+}
+
+#mainSlider .carousel-inner,
+#mainSlider .carousel-item {
+  height: 90vh;
+}
+
+#mainSlider .carousel-caption {
+  top: 30%;
+}
+
+#mainSlider .carousel-caption h2 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+#mainSlider .carousel-caption p {
+  font-size: 2rem;
+  font-weight: 300;
+  margin-bottom: 6.2rem;
+  color: #fff;
+}
+
+.main-btn {
+  background-color: #65daf9;
+  color: #fff;
+  text-transform: uppercase;
+  width: 12.4rem;
+  height: 4rem;
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: 3px solid transparent;
+  transition: 0.5s;
+}
+
+.main-btn:hover {
+  text-decoration: none;
+  color: #fff;
+  background-color: transparent;
+  border: 3px solid #65daf9;
+}
+
+.carousel-indicators .active {
+  background-color: #65daf9;
+}
+
+/*About Area*/
+
+.main-title {
+  color: #444;
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.main-title::after {
+  content: "";
+  border-top: 2px solid #333;
+  width: 15%;
+  position: absolute;
+  top: 3.9rem;
+  left: 42.5%;
+}
+
+.img-fluid {
+  margin-bottom: 3rem;
+}
+
+.about-title {
+  font-size: 1rem;
+  color: #444;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#about-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+#about-list li {
+  line-height: 2.1rem;
+}
+
+#about-list i {
+  color: #65daf9;
+  margin-right: 1rem;
+}
+
+/*Serviços da empresa*/
+
+.service-box {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.service-box h4,
+.service-box i {
+  transition: 0.5s;
+}
+
+.service-box i {
+  font-size: 2.2rem;
+  margin-bottom: 1.2rem;
+  color: #444;
+}
+
+.service-box h4 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.service-box:hover > i,
+.service-box:hover > h4 {
+  color: #65daf9;
+}
+
+/* Dados */
+
+.circle-box div {
+  padding: 0 40px;
+}
+
+.progressbar-text {
+  font-weight: bold;
+  font-size: 32px;
+}
+
+#data-area p {
+  color: #fff;
+  text-align: center;
+  font-size: 26px;
+  margin-top: 20px;
+}
+
+/* Time */
+
+.card-body {
+  text-align: centerP;
+}
+
+/*Trabalhe conosco*/
+
+#apply-area {
+  height: 500px;
+}
+
+#apply-area .container-fluid,
+#apply-area .row {
+  height: 100%;
+}
+
+#apply-area .apply-box {
+  text-align: center;
+  padding: 70px 50px;
+}
+
+#company-img {
+  background-image: url("../img/empresa.jpg");
+  background-size: cover;
+  height: 100%;
+}
+
+#pattern-img {
+  height: 100%;
+}
+
+#pattern-img h4,
+#pattern-img p {
+  color: #fff;
+}
+
+#pattern-img h4 {
+  margin-top: 8%;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+#pattern-img p {
+  margin-bottom: 20px;
+}
+
+#apply-btn {
+  display: block;
+  height: auto;
+  width: 180px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  background-color: transparent;
+  border-color: #fff;
+}
+
+#apply-btn:hover {
+  border-color: #65daf9;
+  background-color: #65daf9;
+}
