@@ -1,6 +1,5 @@
 <h1 align="center"> hDC Agency </h1>
 
-![ezgif com-video-to-gif](https://github.com/Dougladmo/hDC-Agency/assets/100490271/bb4f341f-27c5-47ff-b590-7fd792573984)
 
 <br>
 
